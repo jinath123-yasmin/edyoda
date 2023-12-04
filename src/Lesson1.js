@@ -1,6 +1,6 @@
 
 
-const Lesson1=()=>{
+const Lesson1=(props)=>{
     // const num=10;
 
     // const specification={
@@ -34,6 +34,8 @@ const Lesson1=()=>{
 </ul> */}
 
   <button onClick={clickBtn}>Click me</button>
+  <h1>My name is {props.name}</h1>
+  <h1>My name is {props.designation}</h1>
         </div>
     )
 }

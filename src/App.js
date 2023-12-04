@@ -5,7 +5,7 @@ import Lesson1 from "./Lesson1"
 function App() {
   return (
     <div className="App">
-      <Lesson1 />
+      <Lesson1 name="jinath" designation="software engineer" />
     </div>
   );
 }
