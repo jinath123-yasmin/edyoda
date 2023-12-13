@@ -11,6 +11,7 @@ const CounterAppLifeCycle=()=>{
         }
     }
 
+    
     useEffect(()=>{
         console.log('Counter is Updated') //mounting phase
 

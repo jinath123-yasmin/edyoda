@@ -10,6 +10,8 @@ import ItemList from './Lesson5f';
 import TodoFuntion from './Lesson5fi';
 import MyPureComponent from "./Lesson6";
 import CounterAppLifeCycle from "./Lesson6f"
+import Carousel from './Lesson7';
+import SearchText from './Lesson7f';
 
 function App() {
 
@@ -35,7 +37,9 @@ function App() {
        {/* <MyPureComponent prop1={prop1} prop2={prop2}  />
       <button onClick={handleProp1}>Change Prop1</button>
       <button onClick={handleProp2}>Change Prop2</button> */}
-      <CounterAppLifeCycle />
+      {/* <CounterAppLifeCycle /> */}
+      {/* <Carousel /> */}
+      <SearchText />
 
     </div>
   );
