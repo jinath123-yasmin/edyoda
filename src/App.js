@@ -12,6 +12,7 @@ import MyPureComponent from "./Lesson6";
 import CounterAppLifeCycle from "./Lesson6f"
 import Carousel from './Lesson7';
 import SearchText from './Lesson7f';
+import ShoppingCart from './Lesson8';
 
 function App() {
 
@@ -39,7 +40,9 @@ function App() {
       <button onClick={handleProp2}>Change Prop2</button> */}
       {/* <CounterAppLifeCycle /> */}
       {/* <Carousel /> */}
-      <SearchText />
+      {/* <SearchText /> */}
+
+      <ShoppingCart />
 
     </div>
   );
