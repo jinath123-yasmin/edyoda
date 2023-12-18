@@ -13,6 +13,8 @@ import CounterAppLifeCycle from "./Lesson6f"
 import Carousel from './Lesson7';
 import SearchText from './Lesson7f';
 import ShoppingCart from './Lesson8';
+import LifeCycleExamples from './Lesson9';
+import ProductCard from './Lesson9f';
 
 function App() {
 
@@ -42,7 +44,9 @@ function App() {
       {/* <Carousel /> */}
       {/* <SearchText /> */}
 
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
+      {/* <LifeCycleExamples /> */}
+      <ProductCard />
 
     </div>
   );
