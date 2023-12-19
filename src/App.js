@@ -15,6 +15,7 @@ import SearchText from './Lesson7f';
 import ShoppingCart from './Lesson8';
 import LifeCycleExamples from './Lesson9';
 import ProductCard from './Lesson9f';
+import DataFetchAxios from './Lesson10';
 
 function App() {
 
@@ -46,7 +47,8 @@ function App() {
 
       {/* <ShoppingCart /> */}
       {/* <LifeCycleExamples /> */}
-      <ProductCard />
+      {/* <ProductCard /> */}
+      <DataFetchAxios />
 
     </div>
   );
